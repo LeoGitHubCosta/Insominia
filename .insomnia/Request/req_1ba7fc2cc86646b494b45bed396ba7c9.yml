@@ -1,0 +1,31 @@
+_id: req_1ba7fc2cc86646b494b45bed396ba7c9
+type: Request
+parentId: fld_fb0381f344964150bddaaf67329bbf04
+modified: 1637243849148
+created: 1637243815439
+url: https://localhost:44381/register
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "email": "leonardo.costa@compasso.com.br",
+      "password": "123@Cubo",
+      "confirmPassword": "123@Cubo"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_71abead19a5048e3b49168fc6ce9e6e8
+authentication: {}
+metaSortKey: -1637242451337
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

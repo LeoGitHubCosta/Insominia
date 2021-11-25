@@ -1,0 +1,25 @@
+_id: req_19344014280b45188b85570013e356ef
+type: Request
+parentId: fld_373d78c52c7d4f6081d03c354f308bf1
+modified: 1637241588056
+created: 1637241444764
+url: "{{ _.base_url_jsonplaceholder }}/posts/{% response 'body',
+  'req_5ae8fa80c4134248b125b9335efa1818', 'b64::JC5bMF0uaWQ=::46b', 'never', 60
+  %}"
+name: First Posts
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.jwt }}"
+metaSortKey: -1637241223313
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

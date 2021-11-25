@@ -1,0 +1,35 @@
+_id: req_6bd98fea280b45cf8032c2cd8161f52a
+type: Request
+parentId: fld_d3b398ded1b1427da4cac56f2ee7e213
+modified: 1637246126893
+created: 1637243890328
+url: https://localhost:44381/participation
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "id": "{% response 'raw', 'req_e8e2254822fb49129b1c89d91dc99f57', '', 'always', 60 %}",
+      "firstName": "Leonardo",
+      "lastName": "Costa",
+      "value": 55
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_74edb049453544149890c5d4e3e673de
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4678d2ac452347aba5209517365650e5',
+    'b64::JC5kYXRhLmFjY2Vzc1Rva2Vu::46b', 'never', 60 %}"
+metaSortKey: -1637243890328
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,16 @@
+_id: env_259ab7e3e7df472786dd1313188100f8
+type: Environment
+parentId: env_48ca2dd7d578d120eb8b4ce85c6c8c3228d86f0a
+modified: 1637241549350
+created: 1637240876057
+name: Production
+data:
+  base_url_jsonplaceholder: https://jsonplaceholder.typicode.com
+  jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+dataPropertyOrder:
+  "&":
+    - base_url_jsonplaceholder
+    - jwt
+color: null
+isPrivate: false
+metaSortKey: 1637240876057

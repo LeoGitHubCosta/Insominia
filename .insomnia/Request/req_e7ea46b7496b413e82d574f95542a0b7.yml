@@ -1,0 +1,31 @@
+_id: req_e7ea46b7496b413e82d574f95542a0b7
+type: Request
+parentId: fld_d3b398ded1b1427da4cac56f2ee7e213
+modified: 1637246116223
+created: 1637244412428
+url: https://localhost:44381/participation/{% response 'body',
+  'req_d58ec6d878d24ccd9fb85bd89db023ef', 'b64::JC5bMF0uaWQ=::46b', 'never', 60
+  %}
+name: ById
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_74edb049453544149890c5d4e3e673de
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_4678d2ac452347aba5209517365650e5',
+    'b64::JC5kYXRhLmFjY2Vzc1Rva2Vu::46b', 'never', 60 %}"
+metaSortKey: -1637242631254.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_4678d2ac452347aba5209517365650e5
+type: Request
+parentId: fld_fb0381f344964150bddaaf67329bbf04
+modified: 1637243915112
+created: 1637243679336
+url: https://localhost:44381/login
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "leonardo.costa@compasso.com.br",
+      "password": "123@Cubo"
+    }
+
+    {
+      "email": "leonardo.costa@compasso.com.br",
+      "password": "123@Cubo",
+      "confirmPassword": "123@Cubo"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_71abead19a5048e3b49168fc6ce9e6e8
+authentication: {}
+metaSortKey: -1637242451387
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_5ae8fa80c4134248b125b9335efa1818
+type: Request
+parentId: fld_373d78c52c7d4f6081d03c354f308bf1
+modified: 1637241431461
+created: 1637241223338
+url: "{{ _.base_url_jsonplaceholder }}/posts"
+name: Posts
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1637241223338
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
